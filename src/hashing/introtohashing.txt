@@ -1,0 +1,18 @@
+Hashing is a technique in computer used to reduce data of arbitrary size to a fixed size output.
+The output is known as hash value or digest.Hashing is commonly used in cryptography,
+data indexing and data structures like hash tables.
+
+The hash function is used to generate the hash value. which should be unique for each data input.A good
+hash function has the following properties.
+- Deterministic - The hash function should return the same value for the same input data.
+- Uniform - The hash function should be able to distribute the available data uniform
+across the possible  range of hash values
+- Efficient - the hash function should be computationally efficient.
+
+Hashing has several advantages.
+including fast search and retrieval of data, efficient data storage,and fast data comparisons.
+It also has limitations like possible hash collisions, but there are some methods that are available to address
+hash collisions such as chaining and open addressing.
+
+Hashing has applications in passwords storage,digital signatures and data indexing and
+ data structures such as hashtables, bloom filters and merkle trees.

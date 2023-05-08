@@ -7,6 +7,12 @@ public class SearchForCharacter {
         //time complexity is O(n*m) m being the length of the character
         searchUsingIndexOf('o',myString);
         UsinglastIndexOf('o',myString);
+        usingContainsMethod('o',myString);
+
+    }
+
+    private static void usingContainsMethod(char o, String myString) {
+        System.out.println(myString.contains(String.valueOf(o)));
     }
 
     private static void UsinglastIndexOf(char pattern, String myString) {
@@ -15,7 +21,8 @@ public class SearchForCharacter {
     }
 
     private static void searchUsingIndexOf(char pattern,String text) {
-        int index1 = text.indexOf(pattern);
+        int index1 = text.indexOf('0');
+        //it returns -1 if not found
         System.out.println(index1);
 
 
